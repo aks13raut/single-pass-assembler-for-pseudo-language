@@ -544,7 +544,7 @@ void main() {
 	struct forward_reference *fr,*start=NULL;
 	
 	//intializing MOT
-	fp = fopen("1MOT.txt","r");
+	fp = fopen("MOT.txt","r");
 	int count,i=0;
 	while(!feof(fp)){
 		fscanf(fp,"%s %d %d %s",mot.m[i].mnem,&(mot.m[i].opcode),&(mot.m[i].len),mot.m[i].format);
