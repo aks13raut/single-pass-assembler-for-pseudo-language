@@ -573,8 +573,8 @@ void main() {
 	mot.count = i;
 	fclose(fp);
 	
-	ipfp = fopen("1ALP.txt","r+");
-	opfp = fopen("1machine_code.txt","w");
+	ipfp = fopen("assembly_program.txt","r+");
+	opfp = fopen("machine_code.txt","w");
 	
 	//printing MOT(for reference only)
 	printf("MOT\n|mnemonics|opcode|len|format|func_ptr|\n");
