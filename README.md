@@ -1,5 +1,6 @@
 # single-pass-assembler-for-pseudo-language
 single pass assembler for x86 like pseudo language
+
 features implemented:
 1. FRT for resolving Forward References
 2. Segment Register Table and Stored Segment Register Table for Assume pseudo opcode
